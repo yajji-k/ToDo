@@ -7,8 +7,8 @@ List<Icon> getIcons() {
     Icon(IconData(personIcon, fontFamily: 'MaterialIcons'), color: purple),
     Icon(IconData(workIcon, fontFamily: 'MaterialIcons'), color: pink),
     Icon(IconData(movieIcon, fontFamily: 'MaterialIcons'), color: green),
-    Icon(IconData(sportIcon, fontFamily: 'MatreialIcons'), color: yellow),
-    Icon(IconData(travelIcon, fontFamily: 'MaterialIcon'), color: deepPink),
-    Icon(IconData(shopIcon, fontFamily: 'MaterialIcon'), color: lightblue)
+    Icon(IconData(sportIcon, fontFamily: 'MaterialIcons'), color: yellow),
+    Icon(IconData(travelIcon, fontFamily: 'MaterialIcons'), color: deepPink),
+    Icon(IconData(shopIcon, fontFamily: 'MaterialIcons'), color: lightblue)
   ];
 }

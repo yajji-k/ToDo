@@ -57,11 +57,11 @@ class ReportPage extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 8.0.wp),
+            SizedBox(height: 18.0.wp),
             UnconstrainedBox(
               child: SizedBox(
-                width: 70.0.wp,
-                height: 10.0.wp,
+                width: 75.0.wp,
+                height: 75.0.wp,
                 child: CircularStepProgressIndicator(
                   totalSteps: createdTasks == 0 ? 1 : createdTasks,
                   currentStep: completedTasks,
@@ -77,7 +77,7 @@ class ReportPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        '${createdTasks == 0 ? 0 : percent}',
+                        '${createdTasks == 0 ? 0 : percent} %',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20.0.sp,
